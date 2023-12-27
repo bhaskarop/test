@@ -65,10 +65,10 @@ class DPS:
         status_code = self.send(promo_id, message)
 
         if status_code == 200:
-            Style.print(f"(+): VALID https://discord.com/billing/partner-promotions/{promo_id}/{message[:60]}***")
+            Style.print(f"[✓] VALID https://discord.com/billing/partner-promotions/{promo_id}/{message[:60]}***")
             with open("output/valid.txt", 'a')as x: x.write(f"https://discord.com/billing/partner-promotions/{promo_id}/{message}")
         else:
-            Style.print(f"(-): INVALID https://discord.com/billing/partner-promotions/{promo_id}/{message[:60]}***")
+            Style.print(f"[x] INVALID https://discord.com/billing/partner-promotions/{promo_id}/{message[:60]}***")
             with open("output/invalid.txt", 'a')as x: x.write(f"https://discord.com/billing/partner-promotions/{promo_id}/{message}")
 
     def _process_(self):
