@@ -91,7 +91,14 @@ if __name__ == "__main__":
   ░  ▒    ▒ ░▒░ ░ ░ ░  ░  ░  ▒   ░ ░▒ ▒░ ░ ░  ░  ░▒ ░ ▒░
 ░         ░  ░░ ░   ░   ░        ░ ░░ ░    ░     ░░   ░ 
 ░ ░       ░  ░  ░   ░  ░░ ░      ░  ░      ░  ░   ░     
-░                       ░                                '''
+░                       ░                                
+
+
+888b.           888b. 8               8              
+8wwwP Yb  dP    8wwwP 8d8b. .d88 d88b 8.dP .d88 8d8b 
+8   b  YbdP     8   b 8P Y8 8  8 `Yb. 88b  8  8 8P   
+888P'   dP      888P' 8   8 `Y88 Y88P 8 Yb `Y88 8    
+       dP                                            '''
     print(Colorate.Horizontal(Colors.blue_to_cyan, Center.XCenter(dsn)))
     print("")
     Style.input("(#): Press Enter to start.\n")
